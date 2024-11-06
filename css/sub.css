@@ -12,8 +12,9 @@
 }
 
 .keyvisual {
-   height: 170px;
+   height: 110px;
    position: relative;
+   overflow: hidden;
 }
 
 .keyvisual .title {
@@ -158,7 +159,7 @@
 }
 
 .map_wrap {
-   border:3px solid red;
+   margin-top: 50px;
 }
 
 
