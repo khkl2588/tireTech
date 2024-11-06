@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+:root {
+	--blackColor: #111111; 
+	--hoverColor: #ce65e1;
+	--mainColor: #801494;
+	--gray1Color: #2d2d2d;
+	--gray2Color: #444444;
+	--gray3Color: #b3b3b3;
+	--gray4Color : #636363;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing:border-box;  /* 추가 */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Noto Sans KR", sans-serif;
+	color:var(--blackColor);
+	font-size: 16px;
+}
+ol, ul {
+	list-style: none;
+}
+
+a { 
+	text-decoration: none;
+	color:inherit;
+}
+
+img { vertical-align: middle; }
+
+.mobile { display: none; }
+
+.btn {
+	padding:10px 16px;
+	background:transparent;
+	border:1px solid var(--mainColor);
+	color:var(--mainColor);
+	font-size: 18px;
+	cursor: pointer;
+	transition: 0.4s;
+}

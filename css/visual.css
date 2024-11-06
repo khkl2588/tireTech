@@ -1,0 +1,7 @@
+#visual img { width: 100%; }
+
+
+@media (max-width:991px){
+  #visual .desktop { display: none; }
+  #visual .mobile { display: block }
+}
